@@ -26,7 +26,7 @@ export default function Post({ postData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData?.title}</title>
         <link rel='icon' href='/facivon.ico' />
       </Head>
 
@@ -41,7 +41,7 @@ export default function Post({ postData }) {
             </div>
             <div 
               className='post-content content'
-              dangerouslySetInnerHTML={{ __html: postData.content }}
+              dangerouslySetInnerHTML={{ __html: postData?.content }}
             />
           </article>
         )}
