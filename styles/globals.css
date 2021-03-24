@@ -20,3 +20,7 @@ a:focus,
 a:active {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand { margin-right: 0 !important; }
+}
