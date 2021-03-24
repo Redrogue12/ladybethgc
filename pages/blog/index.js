@@ -1,21 +1,23 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-// data
 import { getAllPosts } from '../../lib/api';
 
-// styles
 import styles from '../../styles/Home.module.css';
 import blogStyles from '../../styles/Blog.module.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from '../../components/Header';
 
 const Blog = ({ allPosts: { edges } }) => {
-  console.log('edges:', edges)
   return (
-    <div className={styles.container}>
+    <div className={styles.mainContainer}>
       <Head>
         <title>Blog articles page</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      <Header />
 
       <main className={styles.main}>
         <h1 className={styles.title}>Latest blog articles</h1>
@@ -26,6 +28,7 @@ const Blog = ({ allPosts: { edges } }) => {
               <div className={blogStyles.listitem__thumbnail}>
                 <figure>
                   <img
+                    style={{ marginRight: 20 }}
                     src={node.extraPostInfo?.thumbImage?.mediaItemUrl}
                     alt={node.title}
                   />
