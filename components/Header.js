@@ -18,8 +18,8 @@ const NavbarHeader = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <div className="navbar-brand-area">
-          <NavbarBrand href="/">Ladybeth González-Cortés, LLC</NavbarBrand>
-          <p className="">Psychologist, Yoga & Meditation Instructor</p>
+          <NavbarBrand href="/">Ladybeth González Cortés</NavbarBrand>
+          <p className="">Psicóloga e Instructora de Meditación y Yoga</p>
         </div>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
