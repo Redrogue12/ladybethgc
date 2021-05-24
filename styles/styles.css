@@ -45,6 +45,12 @@ body {
   align-items: center;
 }
 
+.about-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-area p {
   padding: 40px;
   font-family: "Work Sans";
@@ -54,4 +60,19 @@ body {
 .about-image {
   width: 300px;
   height: auto;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-area {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand-area {
+    max-width: 287px;
+  }
 }

@@ -2,7 +2,7 @@ import aboutImg from '../public/images/about-img.jpg'
 
 const About = () => {
   return (
-    <div className="about-area p-40 flex justify-center align-center">
+    <div className="about-area p-40">
       <img
         className="about-image"
         src={aboutImg}

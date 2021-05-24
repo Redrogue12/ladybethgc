@@ -14,3 +14,14 @@
 .hero-area p {
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 720px) {
+  .hero-area {
+    padding: 20px;
+    padding-top: 300px;
+  }
+
+  .hero-area h1 {
+    font-size: 2em;
+  }
+}
