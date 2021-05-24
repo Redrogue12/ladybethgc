@@ -4,9 +4,6 @@ import Link from 'next/link';
 
 import { getAllPostsWithSlug, getPost } from '../../lib/api';
 
-import styles from '../../styles/Home.module.css';
-import blogStyles from '../../styles/Blog.module.css';
-
 export default function Post({ postData }) {
   console.log('postData:', postData)
   const router = useRouter();
@@ -24,19 +21,19 @@ export default function Post({ postData }) {
   };
 
   return (
-    <div className={styles.container}>
+    <div className="">
       <Head>
         <title>{postData?.title}</title>
         <link rel='icon' href='/facivon.ico' />
       </Head>
 
-      <main className={styles.main}>
+      <main className="">
         {router.isFallback ? (
           <h2>Loading...</h2>
         ) : (
-          <article className={blogStyles.article}>
-            <div className={blogStyles.postmeta}>
-              <h1 className={styles.title}>{postData.title}</h1>
+          <article className="">
+            <div className="">
+              <h1 className="">{postData.title}</h1>
               <p>{formatDate(postData.date)}</p>
             </div>
             <div 

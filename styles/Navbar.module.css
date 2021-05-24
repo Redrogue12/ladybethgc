@@ -1,8 +1,0 @@
-.navbarSubtitle { 
-  margin: 0;
-  padding-bottom: .3125rem;
-}
-
-@media only screen and (max-width: 500px) {
-  .navbarSubtitle { font-size: 14px; }
-}

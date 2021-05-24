@@ -3,29 +3,21 @@ import Link from 'next/link';
 
 import { getAllPosts } from '../../lib/api';
 
-import styles from '../../styles/Home.module.css';
-import blogStyles from '../../styles/Blog.module.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Header from '../../components/Header';
-
 const Blog = ({ allPosts: { edges } }) => {
   return (
-    <div className={styles.mainContainer}>
+    <div className="">
       <Head>
         <title>Blog articles page</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <Header />
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>Latest blog articles</h1>
+      <main className="">
+        <h1 className="">Latest blog articles</h1>
         <hr />
         <section>
           {edges.map(({ node }) => (
-            <div className={blogStyles.listitem} key={node.id}>
-              <div className={blogStyles.listitem__thumbnail}>
+            <div className="" key={node.id}>
+              <div className="">
                 <figure>
                   <img
                     style={{ marginRight: 20 }}
@@ -34,7 +26,7 @@ const Blog = ({ allPosts: { edges } }) => {
                   />
                 </figure>
               </div>
-              <div className={blogStyles.listitem__content}>
+              <div className="">
                 <h2>{node.title}</h2>
                 <p>{node.extraPostInfo?.authorExcerpt}</p>
                 <Link href={`/blog/${node.slug}`}>

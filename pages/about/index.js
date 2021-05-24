@@ -1,22 +1,15 @@
 import Head from 'next/head';
 
-import styles from '../../styles/Home.module.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Header from '../../components/Header';
-
 const Blog = () => {
   return (
-    <div className={styles.mainContainer}>
+    <div className="">
       <Head>
         <title>About Page</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <Header />
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>About Me</h1>
+      <main className="">
+        <h1 className="">About Me</h1>
         <section>
           <p>
             Ladybeth Gonzalez-Cortes is a Psychologist and Hatha Raja Yoga certified teacher RYT200 with 7 years of practice and 4 years of teaching experience. She earned her Master’s degree in Counseling Psychology from the Interamerican University of Puerto Rico. Over the years she has specialized in the development of healthy self-esteem, healthy interpersonal relationships, anxiety and depression management.
