@@ -19,10 +19,20 @@ const Blog = () => {
               src={aboutImg}
               alt="Ladybeth"
             />
-            <blockquote className="blockquote"><p>Creo que necesitamos menos corrección y más aceptación, menos perfeccionismo y más lo suficiente bueno/a, menos críticas y más autocompasión.</p></blockquote>
-          </div>
- 
+            <blockquote className="blockquote">
+              <p>
+                Creo que necesitamos menos corrección y más aceptación;
+              </p>
 
+              <p>
+                Menos perfeccionismo y más lo suficiente bueno/a;
+              </p>
+
+              <p>
+                Menos críticas y más autocompasión.
+              </p>
+            </blockquote>
+          </div>
 
           <h2>Ladybeth González Cortés</h2>
           <h3 className="pb-3">Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora</h3>
@@ -44,6 +54,25 @@ const Blog = () => {
           </p>
 
         </section>
+
+        <section className="education-section">
+          <h2 className="text-center">Educación</h2>
+          <ul>
+            <li><strong>M.A. Consejería Psicológica</strong> de la Universidad Interamericana de Puerto Rico, Recinto Metropolitano</li>
+            <li><strong>B.A. Psicológica</strong> de la Universidad Interamericana de Puerto Rico, Recinto Metropolitano</li>
+          </ul>
+        </section>
+
+        <section className="training-section">
+          <h2 className="text-center">Entrenamientos</h2>
+          <ul>
+            <li>Facilitadora de Dancing Mindfulness</li>
+            <li>Instructora de Hatha Raja Yoga y Meditación RYT 200</li>
+            <li>Mindfulness</li>
+            <li>Reducción de Trauma Incidente</li>
+          </ul>
+        </section>
+
       </main>
     </div>
   )
