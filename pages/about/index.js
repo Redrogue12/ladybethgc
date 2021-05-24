@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import aboutImg from '../../public/images/about-img.jpg'
 
 const Blog = () => {
   return (
@@ -8,18 +9,40 @@ const Blog = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className="">
-        <h1 className="">About Me</h1>
-        <section>
+      <main className="page-main">
+        <h1 className="about-header text-center">Sobre mí</h1>
+        <section className="flex justify-center flex-column align-center p-20">
+
+          <div className="about-quote">
+            <img
+              className="about-image"
+              src={aboutImg}
+              alt="Ladybeth"
+            />
+            <blockquote className="blockquote"><p>Creo que necesitamos menos corrección y más aceptación, menos perfeccionismo y más lo suficiente bueno/a, menos críticas y más autocompasión.</p></blockquote>
+          </div>
+ 
+
+
+          <h2>Ladybeth González Cortés</h2>
+          <h3 className="pb-3">Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora</h3>
+
           <p>
-            Ladybeth Gonzalez-Cortes is a Psychologist and Hatha Raja Yoga certified teacher RYT200 with 7 years of practice and 4 years of teaching experience. She earned her Master’s degree in Counseling Psychology from the Interamerican University of Puerto Rico. Over the years she has specialized in the development of healthy self-esteem, healthy interpersonal relationships, anxiety and depression management.
+            Me siento honrada por poder apoyar a mis clientes en su proceso de sanación, crecimiento y desarrollo humano. Esta práctica se enfoca en ofrecer un espacio seguro para que las personas puedan expresar su vulnerabilidad. Un espacio donde puedan sentirse escuchados/as con compasión, amabilidad y sin juzgar sus procesos. 
           </p>
+
           <p>
-            Since 2017, Ladybeth has integrated holistic alternatives to the mental health field by teaching Restorative Yoga, Healing Meditation and Healthy Living lectures at the True North Health Center in Santa Rosa, California. She is also a certified Dancing Mindfulness teacher and she is very passionate about meditation and spirituality. Currently she is dedicated to leading retreats and offering yoga classes and educational talks on healthy lifestyle. It also offers consultations services on Plant Based Lifestyle, Wellness Living and Therapy for residents of Puerto Rico.
+            Trabajo con personas que tienen baja autoestima, que se sienten asfixiadas por la duda, la tristeza, el estrés, la ansiedad, personas que quieren encontrar un propósito o sentido en la vida, conocerse a sí mismos y aprender a vivir a plenitud, en el momento presente y más. En mi práctica, apoyo a las personas que desean encontrar más aceptación, plenitud y vitalidad en todo lo que son.
           </p>
+
           <p>
-            Ladybeth is known for her calm voice and her dedication to each of her clients. She hopes her clients’ leaves her classes and sessions feeling relaxed, healed and loved. On her free time, she enjoys spending time with her loved ones, exploring nature, listening podcast and playing with her lovely dog Maily. She loves to keep learning about personal development, Buddhist psychology, alternative therapies, meditation, yoga and everything related to living a life full of joy.
+            A través de prácticas holísticas e integradoras, se impulsa a las personas a crear más capacidad para sentir las cosas difíciles y a desarrollar una mayor comprensión de cómo manejar factores estresantes y los desafíos de la vida, al mismo tiempo que se crea un espacio para la presencia y conexión.
           </p>
+
+          <p>
+            Busco colaborar y apoyar a mis clientes en su proceso de crecimiento hacia una vida de calidad, plena y con propósito. El principal objetivo es que cada vez que termines una sesión puedas sentirte escuchado/a, comprendido/a, pero sobre todo relajado/a y en armonía contigo mismo/a.
+          </p>
+
         </section>
       </main>
     </div>
