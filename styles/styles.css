@@ -99,6 +99,17 @@ body {
   margin-bottom: 40px;
 }
 
+.education-section {
+  padding: 20px;
+  /* background-color: #304443;
+  color: #fff; */
+}
+
+.training-section {
+  padding: 20px;
+  /* background-color: #E9D7C7; */
+}
+
 .blockquote {
   padding: 60px 80px 40px;
   position: relative;
