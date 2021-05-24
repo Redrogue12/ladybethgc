@@ -9,8 +9,6 @@ import {
   NavLink
 } from 'reactstrap';
 
-import styles from '../styles/Navbar.module.css';
-
 const NavbarHeader = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +19,7 @@ const NavbarHeader = (props) => {
       <Navbar color="light" light expand="md">
         <div>
           <NavbarBrand href="/">Ladybeth González-Cortés, LLC</NavbarBrand>
-          <p className={styles.navbarSubtitle}>Psychologist, Yoga & Meditation Instructor</p>
+          <p className="">Psychologist, Yoga & Meditation Instructor</p>
         </div>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
