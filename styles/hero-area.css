@@ -1,0 +1,16 @@
+.hero-area {
+  height: 575px;
+  background-image: url('../public/images/hero-image.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  padding-top: 200px;
+}
+
+.hero-area h1, .hero-area p {
+  text-align: right;
+}
+
+.hero-area p {
+  margin-top: 20px;
+}
