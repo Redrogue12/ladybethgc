@@ -2,10 +2,11 @@ import Head from 'next/head'
 // import Link from 'next/link'
 import HeroArea from '../components/HeroArea'
 import About from '../components/About'
+import IgFeed from '../components/IgFeed'
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Ladybeth González-Cortés, LCC</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,9 +14,10 @@ export default function Home() {
         <meta charSet="utf-8" />
       </Head>
 
-      <main className="">
+      <main>
         <HeroArea />
         <About />
+        <IgFeed />
       </main>
     </div>
   )
