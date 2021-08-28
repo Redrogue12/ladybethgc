@@ -5,7 +5,11 @@
 }
 
 :root {
-  --light-black: 	#414a4c; 
+  --light-black: #414a4c;
+
+  --peach-bg: #f8f6f2;
+  --text-color: rgba(79, 75, 74, 1);
+  --secondary-text-color: rgba(185, 157, 126, 1);
 }
 
 html,
@@ -71,6 +75,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--peach-bg);
+  color: var(--text-color);
+}
+
+/* IG Feed */
+._2R-kh {
+  margin-top: 2em;
+}
+
+.ig-link {
+  color: var(--secondary-text-color);
 }
 
 /* About Area in Home */
@@ -79,7 +94,6 @@ body {
   padding: 40px;
   font-family: "Work Sans";
   font-size: 22px;
-  color: 	var(--light-black);
 }
 
 .about-image {
@@ -120,11 +134,11 @@ body {
 
 .blockquote:before {
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   top: 0;
-  content:"\f10d";
+  content: "\f10d";
   font-size: 6em;
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .blockquote::after {

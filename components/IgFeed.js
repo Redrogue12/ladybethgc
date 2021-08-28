@@ -4,8 +4,9 @@ import 'react-ig-feed/dist/index.css';
 // https://mohammedraji.github.io/react-ig-feed/
 export default function IgFeed () {
   return (
-    <div className="p-40">
-      <InstagramFeed token={process.env.NEXT_PUBLIC_IG_TOKEN}  counter="6"/>
+    <div className="p-40 text-center">
+      <a href="https://www.instagram.com/psic.ladybethgc/" className="ig-link">@PSIC.LADYBETHGC</a>
+      <InstagramFeed token={process.env.NEXT_PUBLIC_IG_TOKEN} counter="6"/>
     </div>
   );
 };
