@@ -7,7 +7,9 @@
 :root {
   --light-black: #414a4c;
 
-  --peach-bg: #f8f6f2;
+  --coral-bg: #f8f6f2;
+  --dark-coral-bg: #ede2d9;
+
   --text-color: rgba(79, 75, 74, 1);
   --secondary-text-color: rgba(185, 157, 126, 1);
 }
@@ -71,17 +73,26 @@ body {
   color: var(--light-black);
 }
 
+.navigation-bar {
+  background-color: var(--text-color);
+  color: var(--text-color);
+}
+
 .about-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--peach-bg);
+  background-color: var(--dark-coral-bg);
   color: var(--text-color);
 }
 
 /* IG Feed */
 ._2R-kh {
   margin-top: 2em;
+}
+
+.ig-feed {
+  background-color: var(--coral-bg);
 }
 
 .ig-link {

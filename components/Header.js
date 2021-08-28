@@ -15,7 +15,7 @@ const NavbarHeader = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="navigation-bar">
       <Navbar color="light" light expand="md">
         <div className="navbar-brand-area">
           <NavbarBrand href="/">Ladybeth González Cortés</NavbarBrand>
