@@ -74,8 +74,8 @@ body {
 }
 
 .navigation-bar {
-  background-color: var(--text-color);
-  color: var(--text-color);
+  background-color: var(--coral-bg) !important;
+  color: var(--text-color) !important;
 }
 
 .about-area {

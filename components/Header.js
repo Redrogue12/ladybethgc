@@ -16,7 +16,7 @@ const NavbarHeader = (props) => {
 
   return (
     <div className="navigation-bar">
-      <Navbar color="light" light expand="md">
+      <Navbar light expand="md">
         <div className="navbar-brand-area">
           <NavbarBrand href="/">Ladybeth González Cortés</NavbarBrand>
           <p className="">Psicóloga e Instructora de Yoga y Meditación</p>
