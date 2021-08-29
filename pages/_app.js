@@ -3,6 +3,7 @@ import '../styles/styles.css'
 import '../styles/hero-area.css'
 import '../styles/about-area.css'
 import '../styles/grid-area.css'
+import '../styles/blog.css'
 import 'font-awesome/css/font-awesome.min.css'
 import Header from '../components/Header';
 
