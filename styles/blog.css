@@ -1,0 +1,26 @@
+.blog-page {
+  background-color: var(--coral-bg);
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.articles {
+  margin: 20px;
+  padding: 20px;
+}
+
+.article {
+  padding: 40px;
+  background-color: var(--coral-bg);
+  color: var(--text-color);
+}
+
+.article-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.article-img {
+  width: auto;
+  height: 325px;
+}
