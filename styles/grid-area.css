@@ -28,3 +28,18 @@
 .grid-col-3 {
   background-image: url("../public/images/desk3.jpeg");
 }
+
+@media only screen and (max-width: 767px) {
+  .grid-col-1 {
+    order: 1;
+  }
+  .grid-col-2 {
+    order: 1;
+  }
+  .grid-col-3 {
+    order: 4;
+  }
+  .grid-col-4 {
+    order: 3;
+  }
+}
