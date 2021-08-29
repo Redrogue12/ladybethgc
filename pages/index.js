@@ -3,6 +3,7 @@ import Head from 'next/head'
 import HeroArea from '../components/HeroArea'
 import About from '../components/About'
 import IgFeed from '../components/IgFeed'
+import GridArea from '../components/GridArea'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <HeroArea />
         <About />
+        <GridArea />
         <IgFeed />
       </main>
     </div>
