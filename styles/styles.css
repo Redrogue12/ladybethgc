@@ -99,19 +99,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* About Area in Home */
-
-.about-area p {
-  padding: 40px;
-  font-family: "Work Sans";
-  font-size: 22px;
-}
-
-.about-image {
-  width: 300px;
-  height: auto;
-}
-
 /* About Page */
 
 .about-quote {
@@ -122,13 +109,10 @@ body {
 
 .education-section {
   padding: 20px;
-  /* background-color: #304443;
-  color: #fff; */
 }
 
 .training-section {
   padding: 20px;
-  /* background-color: #E9D7C7; */
 }
 
 .blockquote {
