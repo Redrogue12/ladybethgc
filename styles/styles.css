@@ -19,6 +19,10 @@ body {
   min-height: 100vh;
 }
 
+.row {
+  margin: 0;
+}
+
 .white-text {
   color: #fff;
 }
@@ -92,7 +96,7 @@ body {
 }
 
 .ig-feed {
-  background-color: var(--coral-bg);
+  background-color: var(--dark-coral-bg);
 }
 
 .ig-link {
