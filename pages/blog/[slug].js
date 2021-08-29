@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { getAllPostsWithSlug, getPost } from '../../lib/api';
 
 export default function Post({ postData }) {
-  console.log('postData:', postData)
   const router = useRouter();
 
   if (!router.isFallback && !postData?.slug) {
@@ -21,7 +20,7 @@ export default function Post({ postData }) {
   };
 
   return (
-    <div className="">
+    <div className="article">
       <Head>
         <title>{postData?.title}</title>
         <link rel='icon' href='/facivon.ico' />
@@ -31,7 +30,7 @@ export default function Post({ postData }) {
         {router.isFallback ? (
           <h2>Loading...</h2>
         ) : (
-          <article className="">
+          <article className="m-20">
             <div className="">
               <h1 className="">{postData.title}</h1>
               <p>{formatDate(postData.date)}</p>
