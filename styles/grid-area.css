@@ -1,0 +1,30 @@
+.grid-col {
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: var(--coral-bg);
+  background-size: cover;
+}
+
+.grid-col h3,
+.grid-col p {
+  color: var(--text-color);
+}
+
+.grid-col a {
+  color: var(--secondary-text-color);
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+.grid-col-2 {
+  background-image: url("../public/images/desk2.jpeg");
+}
+.grid-col-3 {
+  background-image: url("../public/images/desk3.jpeg");
+}
