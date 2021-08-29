@@ -13,15 +13,6 @@
   color: var(--text-color);
 }
 
-.grid-col a {
-  color: var(--secondary-text-color);
-  text-decoration: underline;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 10px;
-  padding-top: 20px;
-}
-
 .grid-col-2 {
   background-image: url("../public/images/desk2.jpeg");
 }

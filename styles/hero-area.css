@@ -16,15 +16,6 @@
   color: var(--text-color);
 }
 
-.col1 a {
-  color: var(--secondary-text-color);
-  text-decoration: underline;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 10px;
-  padding-top: 20px;
-}
-
 .col2 {
   background-image: url("../public/images/desk1.jpeg");
   background-size: cover;
