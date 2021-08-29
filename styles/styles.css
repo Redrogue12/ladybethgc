@@ -110,6 +110,14 @@ a {
   color: var(--text-color);
 }
 
+.primary-bg {
+  background-color: var(--coral-bg);
+}
+
+.secondary-bg {
+  background-color: var(--dark-coral-bg);
+}
+
 .primary-color {
   color: var(--text-color);
 }
