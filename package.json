@@ -15,9 +15,13 @@
     "jquery": "^3.6.0",
     "next": "10.0.9",
     "next-images": "^1.7.0",
-    "react": "17.0.1",
+    "node-sass": "^6.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
     "react-dom": "17.0.1",
     "react-ig-feed": "^1.0.4",
-    "reactstrap": "^8.9.0"
+    "reactstrap": "^8.9.0",
+    "sass": "^1.39.0",
+    "webpack": "^5.52.0"
   }
 }
