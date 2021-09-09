@@ -8,14 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "3": "^2.1.0",
+    "-": "^0.0.1",
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
     "next": "10.0.9",
     "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-ig-feed": "^1.0.4",
-    "reactstrap": "^8.9.0",
-    "tailwindcss": "^2.0.3"
+    "reactstrap": "^8.9.0"
   }
 }
