@@ -26,11 +26,14 @@ const Blog = ({ allPosts: { edges } }) => {
             <div className="article" key={node.id}>
               <div className="article-img-container">
                 <figure>
-                  <img
-                    className="article-img"
-                    src={node.extraPostInfo?.thumbImage?.mediaItemUrl}
-                    alt={node.title}
-                  />
+                  {node.extraPostInfo?.thumbImage?.mediaItemUrl ? (
+                    <img
+                      className="article-img"
+                      src={node.extraPostInfo?.thumbImage?.mediaItemUrl}
+                      alt={node.title}
+                    />
+                    ) : null
+                  }
                 </figure>
               </div>
               <div className="">
