@@ -19,11 +19,19 @@ export default function Post({ postData }) {
     }/${newDate.getFullYear()}`
   };
 
+  const cleanExcerpt = excerpt => excerpt.slice(3, 120);
+
   return (
     <div className="article-container">
       <Head>
         <title>{postData?.title}</title>
         <link rel='icon' href='/facivon.ico' />
+
+        <meta charSet="UTF-8" />
+        <meta name="description" content={cleanExcerpt(postData?.excerpt)} />
+        <meta name="keywords" content="Psicologia, Educación, Budismo, Auto Compasion, Amor, Aceptacion" />
+        <meta name="author" content="Ladybeth González Cortés" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <main className="article">
