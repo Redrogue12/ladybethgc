@@ -20,13 +20,13 @@ export default function Post({ postData }) {
   };
 
   return (
-    <div className="article">
+    <div className="article-container">
       <Head>
         <title>{postData?.title}</title>
         <link rel='icon' href='/facivon.ico' />
       </Head>
 
-      <main className="">
+      <main className="article">
         {router.isFallback ? (
           <h2>Loading...</h2>
         ) : (

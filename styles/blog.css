@@ -9,10 +9,16 @@
   padding: 20px;
 }
 
-.article {
+.article-container {
   padding: 40px;
   background-color: var(--coral-bg);
   color: var(--text-color);
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  max-width: 1200px;
 }
 
 .article-img-container {
