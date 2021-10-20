@@ -7,6 +7,10 @@ const Blog = () => {
       <Head>
         <title>About Page</title>
         <link rel='icon' href='/favicon.ico' />
+
+        <meta name="description" content="Ladybeth Gonzalez Cortes: Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora" />
+        <meta name="keywords" content="Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora" />
+        <meta name="author" content="Ladybeth González Cortés" />
       </Head>
 
       <main className="page-main">

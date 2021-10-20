@@ -13,6 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+
+
+        <meta name="description" content="Ladybeth Gonzalez Cortes: Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora" />
+        <meta name="keywords" content="Psicologia, Educación, Budismo, Auto Compasion, Amor, Aceptacion" />
+        <meta name="author" content="Ladybeth González Cortés" />
       </Head>
 
       <main>
