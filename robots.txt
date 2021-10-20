@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /services/
 Disallow: /contact/
+Disallow: /schedule/
+Disallow: /blogger-gb-news/
 
 Sitemap: https://ladybethgc.com/sitemap.xml
