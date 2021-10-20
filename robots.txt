@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /services/
+
+Sitemap: https://ladybethgc.com/sitemap.xml
