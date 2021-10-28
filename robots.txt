@@ -3,5 +3,6 @@ Disallow: /services/
 Disallow: /contact/
 Disallow: /schedule/
 Disallow: /blogger-gb-news/
+Disallow: /category/
 
 Sitemap: https://ladybethgc.com/sitemap.xml
