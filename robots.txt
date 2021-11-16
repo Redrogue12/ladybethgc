@@ -4,5 +4,6 @@ Disallow: /contact/
 Disallow: /schedule/
 Disallow: /blogger-gb-news/
 Disallow: /category/
+Disallow: /category/uncategorized
 
 Sitemap: https://ladybethgc.com/sitemap.xml
