@@ -19,7 +19,7 @@
 
 .blog-article {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: white;
   border-radius: 20px;
 }
@@ -44,7 +44,36 @@
 }
 
 @media only screen and (max-width: 500px) {
+  article h1 {
+    font-size: 1.8em;
+  }
+
+  .article-container {
+    padding: 20px;
+  }
+
+  .articles {
+    margin: 0;
+    padding: 0;
+  }
+
+  .blog-article {
+    margin-bottom: 20px;
+  }
+
   .article {
-    padding: 10px;
+    padding: 20px;
+  }
+
+  .article-title {
+    font-size: 1.5em;
+  }
+
+  .article-date {
+    font-size: .8em;
+  }
+
+  .article-excerpt {
+    font-size: .9em;
   }
 }

@@ -3,10 +3,19 @@
   color: var(--text-color);
 }
 
-.about-area p {
+.about-text-area {
   padding: 40px;
-  font-family: "Work Sans";
-  font-size: 22px;
+}
+
+.about-text-area h1 {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  color: #414A4C;
+}
+
+.about-text-area p {
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 .about-image {
@@ -35,12 +44,21 @@
   border-bottom-right-radius: 20px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
+  .about-text-area {
+    padding: 20px;
+  }
+
   .about-image {
     margin-top: 0px;
   }
 
-  .about-area p {
-    padding: 20px;
+  .about-text-area h1 {
+    font-size: 1.8em;
+  }
+
+  .about-text-area p {
+    font-size: 1em;
+    line-height: 1.5em;
   }
 }

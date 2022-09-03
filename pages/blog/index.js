@@ -27,9 +27,9 @@ const Blog = ({ allPosts: { edges } }) => {
               <div className="blog-article" key={node.id}>
                 <div>
                   <Link href={`/blog/${node.slug}`}>
-                    <h2 className="pointer primary-color">{node.title}</h2>
+                    <h2 className="pointer primary-color article-title">{node.title}</h2>
                   </Link>
-                  <p className="primary-color">{formatDate(node.date)}</p>
+                  <p className="primary-color article-date">{formatDate(node.date)}</p>
                   <div className="article-img-container">
                     <figure>
                       {node.extraPostInfo?.thumbImage?.mediaItemUrl ? (
@@ -42,9 +42,9 @@ const Blog = ({ allPosts: { edges } }) => {
                       }
                     </figure>
                   </div>
-                  <p className="primary-color">{node.extraPostInfo?.authorExcerpt}</p>
+                  <p className="primary-color article-excerpt">{node.extraPostInfo?.authorExcerpt}</p>
                   <Link href={`/blog/${node.slug}`}>
-                    <a className="secondary-color">Read more</a>
+                    <a className="secondary-color">Leer Artículo</a>
                   </Link>
                 </div>
               </div>

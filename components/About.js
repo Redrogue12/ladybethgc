@@ -8,10 +8,14 @@ const About = () => {
         src={aboutImg}
         alt="Ladybeth"
       />
-      <p>
-        ¡Hola! Mi nombre es Ladybeth. Soy psicóloga licenciada, pero también podrías llamarme motivadora del amor propio y autocuidado, defensora de la vulnerabilidad y proveedora de un espacio de esperanza y sanación. Creo en que necesitamos menos juicio y más autocompasión; Menos perfeccionismo y más estoy haciendo mi mejor esfuerzo; Menos críticas y más aceptación. Mi deseo es que mis clientes se sientan escuchados y comprendidos.
-      </p>
-      
+      <div className="about-text-area">
+        <h1>
+          ¡Hola!
+        </h1>
+        <p>
+          Mi nombre es Ladybeth. Soy psicóloga licenciada, pero también podrías llamarme motivadora del amor propio y autocuidado, defensora de la vulnerabilidad y proveedora de un espacio de esperanza y sanación. Creo en que necesitamos menos juicio y más autocompasión; Menos perfeccionismo y más estoy haciendo mi mejor esfuerzo; Menos críticas y más aceptación. Mi deseo es que mis clientes se sientan escuchados y comprendidos.
+        </p>
+      </div>      
     </div>
   );
 }
