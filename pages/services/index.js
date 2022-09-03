@@ -10,10 +10,12 @@ const Services = () => {
       </Head>
 
       <main>
-        <h1 className="text-center primary-color">Services</h1>
-        <section className="calendly-section">
-          <div className="calendly-inline-widget" data-url="https://calendly.com/psicologalgc/"></div>
-        </section>
+        <div className="main-container">
+          <h1 className="text-center primary-color">Servicios</h1>
+          <section className="calendly-section">
+            <div className="calendly-inline-widget" data-url="https://calendly.com/psychologistlgc"></div>
+          </section>
+        </div>
       </main>
     </div>
   )

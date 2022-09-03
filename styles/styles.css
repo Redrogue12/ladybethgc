@@ -28,6 +28,11 @@ a {
   padding-top: 20px;
 }
 
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 .row {
   margin: 0;
 }

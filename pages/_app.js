@@ -5,6 +5,7 @@ import '../styles/about-area.css';
 import '../styles/grid-area.css';
 import '../styles/blog.css';
 import '../styles/services.css';
+import '../styles/contact.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Header from '../components/Header';
 

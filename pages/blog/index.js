@@ -19,36 +19,38 @@ const Blog = ({ allPosts: { edges } }) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className="">
-        <h1 className="text-center">Latest blog articles</h1>
-        <section className="articles">
-          {edges.map(({ node }) => (
-            <div className="article" key={node.id}>
-              <div className="article-img-container">
-                <figure>
-                  {node.extraPostInfo?.thumbImage?.mediaItemUrl ? (
-                    <img
-                      className="article-img"
-                      src={node.extraPostInfo?.thumbImage?.mediaItemUrl}
-                      alt={node.title}
-                    />
-                    ) : null
-                  }
-                </figure>
+      <main>
+        <div className="main-container">
+          <h1 className="text-center">Artículos</h1>
+          <section className="articles">
+            {edges.map(({ node }) => (
+              <div className="article" key={node.id}>
+                <div className="article-img-container">
+                  <figure>
+                    {node.extraPostInfo?.thumbImage?.mediaItemUrl ? (
+                      <img
+                        className="article-img"
+                        src={node.extraPostInfo?.thumbImage?.mediaItemUrl}
+                        alt={node.title}
+                      />
+                      ) : null
+                    }
+                  </figure>
+                </div>
+                <div className="">
+                  <Link href={`/blog/${node.slug}`}>
+                    <h2 className="pointer primary-color">{node.title}</h2>
+                  </Link>
+                  <p className="primary-color">{formatDate(node.date)}</p>
+                  <p className="primary-color">{node.extraPostInfo?.authorExcerpt}</p>
+                  <Link href={`/blog/${node.slug}`}>
+                    <a className="secondary-color">Read more</a>
+                  </Link>
+                </div>
               </div>
-              <div className="">
-                <Link href={`/blog/${node.slug}`}>
-                  <h2 className="pointer primary-color">{node.title}</h2>
-                </Link>
-                <p className="primary-color">{formatDate(node.date)}</p>
-                <p className="primary-color">{node.extraPostInfo?.authorExcerpt}</p>
-                <Link href={`/blog/${node.slug}`}>
-                  <a className="secondary-color">Read more</a>
-                </Link>
-              </div>
-            </div>
-          ))}
-        </section>
+            ))}
+          </section>
+        </div>
       </main>
     </div>
   )
