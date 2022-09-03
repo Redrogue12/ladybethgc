@@ -38,9 +38,11 @@ const Blog = () => {
                 </p>
               </blockquote>
             </div>
+          </section>
 
-            <h2>Ladybeth González Cortés</h2>
-            <h3 className="pb-3">Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora</h3>
+          <section className="about-section p-3">
+            <h2 className="text-center">Ladybeth González Cortés</h2>
+            <h3 className="pb-3 text-center">Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora</h3>
 
             <p>
               Me siento honrada por poder apoyar a mis clientes en su proceso de sanación, crecimiento y desarrollo humano. Esta práctica se enfoca en ofrecer un espacio seguro para que las personas puedan expresar su vulnerabilidad. Un espacio donde puedan sentirse escuchados/as con compasión, amabilidad y sin juzgar sus procesos. 
@@ -57,7 +59,6 @@ const Blog = () => {
             <p>
               Busco colaborar y apoyar a mis clientes en su proceso de crecimiento hacia una vida de calidad, plena y con propósito. El principal objetivo es que cada vez que termines una sesión puedas sentirte escuchado/a, comprendido/a, pero sobre todo relajado/a y en armonía contigo mismo/a.
             </p>
-
           </section>
 
           <section className="education-section">

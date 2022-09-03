@@ -16,6 +16,24 @@
   z-index: 1000;
 }
 
+.education-section, .training-section, .about-section {
+  background-color: var(--dark-coral-bg);
+}
+
+.education-section ul, .training-section ul {
+  padding-left: 20px;
+}
+
+.about-section {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.training-section {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 @media only screen and (max-width: 720px) {
   .about-image {
     margin-top: 0px;
