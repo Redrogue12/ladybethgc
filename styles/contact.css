@@ -7,3 +7,9 @@
 	background-color: white;
 	border-radius: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+  .contact-column, .map-element {
+    margin-bottom: 20px;
+  }
+}

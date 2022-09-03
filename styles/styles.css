@@ -220,6 +220,10 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+  .page-main {
+    padding: 20px;
+  }
+
   .navbar-brand-area {
     max-width: 287px;
   }

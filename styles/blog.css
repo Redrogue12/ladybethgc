@@ -7,8 +7,6 @@
 .articles {
   margin: 20px;
   padding: 20px;
-  background-color: white;
-  border-radius: 20px;
 }
 
 .article-container {
@@ -17,6 +15,13 @@
   color: var(--text-color);
   display: flex;
   justify-content: center;
+}
+
+.blog-article {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .article {
@@ -33,5 +38,13 @@
 
 .article-img {
   width: auto;
-  height: 325px;
+  height: 225px;
+  width: auto;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .article {
+    padding: 10px;
+  }
 }

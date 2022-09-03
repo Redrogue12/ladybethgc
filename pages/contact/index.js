@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 
 const Services = () => {
   return (
-    <div className="p-40 primary-bg h-100">
+    <div className="p-4 primary-bg h-100">
       <Head>
         <title>Contacto - Ladybeth González-Cortés, LCC</title>
         <link rel='icon' href='/favicon.ico' />
