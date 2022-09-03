@@ -15,7 +15,7 @@ const Blog = ({ allPosts: { edges } }) => {
   return (
     <div className="blog-page">
       <Head>
-        <title>Blog articles page</title>
+        <title>Artículos - Ladybeth González-Cortés, LCC</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

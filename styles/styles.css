@@ -15,8 +15,9 @@
 }
 
 html,
-body {
-  min-height: 100vh;
+body,
+#__next {
+  height: 100%;
 }
 
 a {

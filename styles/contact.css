@@ -1,3 +1,9 @@
 .map-element {
 	border: none;
+	border-radius: 20px;
+}
+
+.contact-column {
+	background-color: white;
+	border-radius: 20px;
 }

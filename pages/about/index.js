@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div>
       <Head>
-        <title>About Page</title>
+        <title>Sobre mí - Ladybeth González-Cortés, LCC</title>
         <link rel='icon' href='/favicon.ico' />
 
         <meta name="description" content="Ladybeth Gonzalez Cortes: Psicóloga consejera, instructora de yoga y meditación, conferenciante y educadora" />

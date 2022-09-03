@@ -39,8 +39,8 @@ export default function Post({ postData }) {
           <h2>Loading...</h2>
         ) : (
           <article className="m-20">
-            <div className="">
-              <h1 className="">{postData.title}</h1>
+            <div>
+              <h1>{postData.title}</h1>
               <p>{formatDate(postData.date)}</p>
             </div>
             <div 
