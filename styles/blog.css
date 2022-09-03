@@ -7,6 +7,8 @@
 .articles {
   margin: 20px;
   padding: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .article-container {
@@ -19,6 +21,9 @@
 
 .article {
   max-width: 1200px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .article-img-container {
