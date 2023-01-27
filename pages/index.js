@@ -10,8 +10,6 @@ export default function Home() {
       <Head>
         <title>Ladybeth González-Cortés, LCC</title>
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans"></link> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <html lang="es" />

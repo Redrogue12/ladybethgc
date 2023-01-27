@@ -7,6 +7,11 @@ module.exports = async (phase, { defaultConfig }) => {
     images: {
       formats: ['image/webp'],
     },
+    experimental: {
+      fontLoaders: [
+        { loader: '@next/font/google', options: { subsets: ['latin'] } },
+      ],
+    },
   }
   return nextConfig
 }
