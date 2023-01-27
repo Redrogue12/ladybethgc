@@ -1,8 +1,7 @@
 import Head from 'next/head'
-// import Link from 'next/link'
 import HeroArea from '../components/HeroArea'
 import About from '../components/About'
-import IgFeed from '../components/IgFeed'
+// import IgFeed from '../components/IgFeed'
 import GridArea from '../components/GridArea'
 
 export default function Home() {
@@ -26,7 +25,7 @@ export default function Home() {
         <HeroArea />
         <About />
         <GridArea />
-        <IgFeed />
+        {/* <IgFeed /> */}
       </main>
     </div>
   )

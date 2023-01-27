@@ -44,7 +44,7 @@ const Blog = ({ allPosts: { edges } }) => {
                   </div>
                   <p className="primary-color article-excerpt">{node.extraPostInfo?.authorExcerpt}</p>
                   <Link href={`/blog/${node.slug}`}>
-                    <a className="secondary-color">Leer Artículo</a>
+                    <span className="secondary-color">Leer Artículo</span>
                   </Link>
                 </div>
               </div>
