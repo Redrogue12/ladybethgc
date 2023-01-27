@@ -1,4 +1,6 @@
 import Head from 'next/head';
+// https://www.npmjs.com/package/react-calendly
+import { InlineWidget } from "react-calendly";
 
 const Services = () => {
   return (
@@ -13,7 +15,7 @@ const Services = () => {
         <div className="main-container">
           <h1 className="text-center primary-color">Servicios</h1>
           <section className="calendly-section">
-            <div className="calendly-inline-widget" data-url="https://calendly.com/psychologistlgc"></div>
+            <InlineWidget url="https://calendly.com/psychologistlgc" />
           </section>
         </div>
       </main>

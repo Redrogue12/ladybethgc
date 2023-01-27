@@ -51,7 +51,7 @@ export default function Post({ postData }) {
         )}
         <p>
           <Link href='/blog'>
-            <a>back to articles</a>
+            back to articles
           </Link>
         </p>
       </main>

@@ -1,9 +1,10 @@
 import aboutImg from '../public/images/about-img.jpg';
+import Image from 'next/image';
 
 const About = () => {
   return (
     <div className="about-area p-40">
-      <img
+      <Image
         className="about-image"
         src={aboutImg}
         alt="Ladybeth"

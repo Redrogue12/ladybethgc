@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import aboutImg from '../../public/images/about-img.jpg'
+import aboutImg from '../../public/images/about-img.jpg';
+import Image from 'next/image';
+
 
 const Blog = () => {
   return (
@@ -19,7 +21,7 @@ const Blog = () => {
           <section className="flex justify-center flex-column align-center p-20">
 
             <div className="about-quote">
-              <img
+              <Image
                 className="about-image"
                 src={aboutImg}
                 alt="Ladybeth"

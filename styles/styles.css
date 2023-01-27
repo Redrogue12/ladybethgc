@@ -30,11 +30,11 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+  font-family: var(--title-font), 'Times New Roman', Times, serif;
 }
 
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: var(--paragraph-font), sans-serif;
 }
 
 .main-container {
