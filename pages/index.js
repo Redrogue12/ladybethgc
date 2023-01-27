@@ -20,10 +20,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>yooooooooo</h1>
-        {/* <HeroArea />
+        <HeroArea />
         <About />
-        <GridArea /> */}
+        <GridArea />
         {/* <IgFeed /> */}
       </main>
     </div>
