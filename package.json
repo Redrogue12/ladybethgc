@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-calendly": "^4.1.1",
     "react-dom": "^18.2.0",
+    "react-static-google-map": "^0.9.0",
     "reactstrap": "^9.1.5",
     "sass": "^1.39.0",
     "webpack": "^5.52.0"
